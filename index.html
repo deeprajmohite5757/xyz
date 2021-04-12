@@ -1,12 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-    
+  <header>
+    <div class="logo center">
+      <span class="title"><b>NEWS BLOG</b></span><br />
+      <span class="subtitle">WORLDWIDE NEWS</span>
+    </div>
+  </header>
+
+  <div class="category">
+    <label>SELECT CATEGORY</label><br />
+    <select name="category" id="category">
+      <option value="all">All</option>
+      <option value="politics">Politics</option>
+      <option value="science">Science</option>
+      <option value="sports">Sports</option>
+      <option value="health">Health</option>
+    </select>
+  </div>
+
+  <form action="/index.html">
+    <div class="subscribe">
+      <label for="">SUBSRIBE</label><br />
+      <input id="email" type="email" placeholder="Email Address" />
+      <input id="submit" type="submit" value="Subscribe" />
+    </div>
+  </form>
+
+  <div class="center">
+    <span class="title heading"><b>ALL NEWS</b></span>
+  </div>
+
+  <hr />
+
+  <article class="article">
+    <span class="article-image"><img src="./images/tata-chairman.JPG" alt="" /></span>
+    <span class="article-heading"><b>Title One</b></span>
+    <p class="article-deatils">
+      posted on <b>29 June, 2019</b> //Category: <b>Category One</b>
+    </p>
+    <p class="article-content">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quos
+      accusantium quidem dolor minima sint, odio possimus ab aliquid maiores
+      exercitationem repellat adipisci eos molestiae officiis animi ipsum
+      dicta aliquam.
+    </p>
+    <button>Continue Reading</button>
+  </article>
+
+  <hr class="artile-end-line" />
+
+  <article class="article">
+    <span class="article-image"><img src="./images/tata-chairman.JPG" alt="" /></span>
+    <span class="article-heading"><b>Title Two</b></span>
+    <p class="article-deatils">
+      posted on <b>29 June, 2019</b> //Category: <b>Category One</b>
+    </p>
+    <p class="article-content">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quos
+      accusantium quidem dolor minima sint, odio possimus ab aliquid maiores
+      exercitationem repellat adipisci eos molestiae officiis animi ipsum
+      dicta aliquam.
+    </p>
+    <button>Continue Reading</button>
+  </article>
+
+  <hr class="artile-end-line" />
+
+  <article class="article">
+    <span class="article-image"><img src="./images/tata-chairman.JPG" alt="" /></span>
+    <span class="article-heading"><b>Title Three</b></span>
+    <p class="article-deatils">
+      posted on <b>29 June, 2019</b> //Category: <b>Category One</b>
+    </p>
+    <p class="article-content">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quos
+      accusantium quidem dolor minima sint, odio possimus ab aliquid maiores
+      exercitationem repellat adipisci eos molestiae officiis animi ipsum
+      dicta aliquam.
+    </p>
+    <button>Continue Reading</button>
+  </article>
+
+  <footer>@NewsFeed 2021</footer>
+
 </body>
+
 </html>
