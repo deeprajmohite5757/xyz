@@ -11,7 +11,7 @@ header {
 .article-heading {
   margin-left: 10px;
   color: #261f4c;
-  font-size: 190%;
+  font-size: 150%;
   vertical-align: top;
 }
 
@@ -50,10 +50,6 @@ select {
   width: 15%;
 }
 
-.heading {
-  margin-top: -30%;
-}
-
 .subscribe {
   margin-top: -50px;
   float: right;
@@ -72,6 +68,7 @@ select {
 
 img {
   vertical-align: top;
+  width: 30%;
 }
 
 a {
@@ -88,6 +85,7 @@ button {
   border: 0;
   color: white;
   padding: 1% 1%;
+  margin-left: 31.4%;
 }
 
 .artile-end-line {
@@ -102,31 +100,29 @@ footer {
   padding: 10px;
 }
 
-@media screen and (min-width: 135px) {
-  .article-heading {
-    font-size: 150%;
-  }
-
-  .article-content {
-    margin-top: -1%;
-    margin-left: 31.4%;
-  }
-  img {
-    width: 30%;
-  }
-  .article-deatils {
-    margin-left: 31.4%;
-    margin-top: -19%;
-    font-size: 64%;
-  }
-  button {
-    margin-left: 31.4%;
-  }
+.article-content {
+  margin-left: 31.4%;
 }
+.article-deatils {
+  margin-left: 31.4%;
+  margin-top: -19%;
+  font-size: 64%;
+}
+
 @media screen and (max-width: 875px) {
   .center {
     margin-left: 28%;
     width: 34%;
+  }
+  img {
+    margin-top: 1%;
+  }
+  .article-deatils {
+    margin-top: -20%;
+    margin-left: 32.4%;
+  }
+  .article-content {
+    margin-left: 32.4%;
   }
 }
 
@@ -160,12 +156,25 @@ footer {
   #submit {
     width: 75px;
   }
-  img {
-    width: 30%;
-    margin-top: 1%;
-  }
   .article-heading {
     font-size: 100%;
+  }
+  .article-deatils {
+    margin-top: -31%;
+    margin-left: 35.4%;
+  }
+  .article-content {
+    margin-top: -1%;
+    margin-left: 35.4%;
+    font-size: 70%;
+  }
+  button {
+    margin-left: 35%;
+    padding: 1px 1px;
+  }
+  img {
+    width: 112px;
+    height: 125px;
   }
 }
 
