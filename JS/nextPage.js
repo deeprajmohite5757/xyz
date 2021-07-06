@@ -1,7 +1,7 @@
 // function for adding next button
 function putNextButton(wrapper) {
   // Creating next button
-  var nextButton = document.createElement("button");
+  let nextButton = document.createElement("button");
   nextButton.id = "nextButton";
   nextButton.classList.add("pagenumbers");
   nextButton.textContent = "Next";
