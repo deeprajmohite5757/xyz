@@ -4,7 +4,7 @@ var footer = document.getElementById("footer");
 var footerContent = document.createElement("div");
 footerContent.id = "footerContent";
 
-// text field
+//  text field
 var footerTxt = document.createTextNode("YouTubeSearch 2021");
 footerContent.append(footerTxt);
 
